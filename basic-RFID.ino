@@ -3,7 +3,7 @@
 #include <Servo.h>
 #include <SPI.h>
 #include <MFRC522.h>
-char* myTags[100] = {"44A1A559", "5B193BD9"};
+char* myTags[100] = {"YOUR CARD UID"};
 byte readCard[4]; 
 String tagID = "";
 constexpr uint8_t RST_PIN = 9;          // Configurable, see typical pin layout above
